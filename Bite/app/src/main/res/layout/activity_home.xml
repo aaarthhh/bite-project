@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Homeo">
+    <LinearLayout
+        android:id="@+id/llheader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+
+
+
+        <com.arth.calorytracker.Font.TextView_SemiBold
+            android:id="@+id/tvServiceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="@dimen/dp50"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dp16"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/logout"
+            android:layout_width="@dimen/dp50"
+            android:layout_height="@dimen/dp50"
+            android:layout_gravity="center"
+            android:padding="@dimen/dp10"
+            app:srcCompat="@drawable/ic_logout" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp60"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:id="@+id/llOrder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp60"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="@dimen/dp20"
+                app:srcCompat="@drawable/ic_home" />
+
+            <com.arth.calorytracker.Font.TextView_Medium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Careers"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp11" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp60"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dp20"
+                android:layout_height="@dimen/dp20"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_home" />
+
+            <com.arth.calorytracker.Font.TextView_Medium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp20"
+                android:gravity="center"
+                android:padding="@dimen/dp5"
+                android:text="Call"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp13"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llfood"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp60"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dp20"
+                android:layout_height="@dimen/dp20"
+                app:srcCompat="@drawable/ic_order" />
+
+            <com.arth.calorytracker.Font.TextView_Medium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Weight"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp11" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lldiet"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp60"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dp20"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_nutrition" />
+
+            <com.arth.calorytracker.Font.TextView_Medium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Diet"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp11" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llAccount"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp60"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/dp20"
+                android:layout_height="@dimen/dp20"
+                app:srcCompat="@drawable/ic_account" />
+
+            <com.arth.calorytracker.Font.TextView_Medium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Account"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp11" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

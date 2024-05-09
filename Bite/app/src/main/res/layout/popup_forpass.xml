@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp70"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.arth.calorytracker.Font.TextView_Medium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+            android:gravity="center"
+            android:padding="@dimen/dp10"
+            android:text="FORGOT PASSWORD ?"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp18" />
+
+        <View
+            android:layout_width="@dimen/dp60"
+            android:layout_height="@dimen/dp3"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dp15"
+            android:paddingTop="@dimen/dp5"
+            android:paddingRight="@dimen/dp15"
+            android:paddingBottom="@dimen/dp5">
+
+            <ImageView
+                android:layout_width="@dimen/dp60"
+                android:layout_height="@dimen/dp60"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dp15"
+                android:alpha=".8"
+                android:src="@drawable/sad" />
+
+
+            <com.arth.calorytracker.Font.TextView_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:lineSpacingExtra="@dimen/dp2"
+                android:text="Don't worry! Just enter your Email Id below and we'll send you link for Change your Password."
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp14" />
+
+            <com.arth.calorytracker.Font.EditText_Regular
+                android:id="@+id/etemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp15"
+                android:drawablePadding="@dimen/dp10"
+                android:hint=" Enter Email "
+                android:padding="@dimen/dp8"
+                android:singleLine="true"
+                android:textColor="@color/darker_gray"
+                android:textColorHint="@color/darker_gray"
+                android:textSize="@dimen/sp14" />
+
+            <com.arth.calorytracker.Font.Button_SemiBold
+                android:id="@+id/btnOk"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp40"
+                android:layout_marginLeft="@dimen/dp15"
+                android:layout_marginRight="@dimen/dp15"
+                android:layout_marginBottom="@dimen/dp15"
+                android:background="@color/colorPrimary"
+                android:padding="@dimen/dp10"
+                android:text="OK"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp16" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivClose"
+        android:layout_width="@dimen/dp45"
+        android:layout_height="@dimen/dp45"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:padding="@dimen/dp10"
+        app:srcCompat="@drawable/ic_close" />
+
+</RelativeLayout>

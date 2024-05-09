@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0F62AC</color>
+    <color name="colorPrimaryDark">#0d4c84</color>
+    <color name="colorAccent">#043866</color>
+    <color name="colorPrimaryLight">#3e97e7</color>
+    <color name="color">#0F62AC</color>
+    <color name="opacity_color">#5e3472ab</color>
+    <color name="opacity_white">#d8ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="green">#0ca05d</color>
+    <color name="light_green">#42D491</color>
+    <color name="bright_green">#d0ffe5</color>
+    <color name="yellow">#e4ca08</color>
+    <color name="violate">#dcc6ff</color>
+    <color name="cyan">#00BCD4</color>
+
+    <color name="bright_yellow">#f4ecb4</color>
+    <color name="light_yellow">#fff2be</color>
+    <color name="light_yellow_card">#fdf8e1</color>
+    <color name="dark_pink">#b9027f</color>
+    <color name="pink">#ff00cc</color>
+    <color name="dark_red">#c7423e</color>
+    <color name="red">#F44336</color>
+    <color name="light_red">#fac8c6</color>
+    <color name="light_red_card">#fde4e3</color>
+    <color name="dark_gray">#919293</color>
+    <color name="font_dark_gray">#515456</color>
+    <color name="darker_gray">#393a3b</color>
+    <color name="light_gray">#f2f2f2</color>
+    <color name="font_light_gray">#c5c5c5</color>
+    <color name="dark_blue">#204281</color>
+    <color name="blue">#264e98</color>
+    <color name="light_blue">#c0d7ff</color>
+    <color name="light_blue_card">#e7f0ff</color>
+    <color name="orange">#faa466</color>
+    <color name="purple">#935ced</color>
+    <color name="parrot">#9bb12a</color>
+    <color name="sky_blue">#6FCCD1</color>
+
+
+    <color name="topbar">#EE23E4</color>
+    <color name="tranwhite">#8CFFFFFF</color>
+
+</resources>
+
+    <!--
+    <color name="colorPrimary">#0F62AC</color>
+    <color name="colorPrimaryDark">#0d4c84</color>-->

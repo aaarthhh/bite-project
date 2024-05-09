@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="-180dp"
+            android:scaleType="centerCrop"
+            android:src="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".6">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+
+                        <com.arth.calorytracker.Font.TextView_Bold
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/tvWelcome"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="@dimen/dp3"
+                            android:paddingLeft="@dimen/dp20"
+                            android:text="Welcome Back ! "
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/sp25" />
+
+
+                        <com.arth.calorytracker.Font.TextView_Regular
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp5"
+                            android:layout_marginTop="@dimen/dp5"
+                            android:layout_marginBottom="@dimen/dp5"
+                            android:gravity="center"
+                            android:paddingLeft="@dimen/dp20"
+                            android:text="Lets get your hospitality the right away."
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/sp15" />
+                    </LinearLayout>
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".4"
+                    android:gravity="center_horizontal|bottom">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp20"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.arth.calorytracker.Font.TextView_Regular
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp5"
+                            android:layout_marginBottom="@dimen/dp5"
+                            android:gravity="center"
+                            android:text="New Here?"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp16" />
+
+                        <com.arth.calorytracker.Font.TextView_Bold
+                            android:id="@+id/tvRegister"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp5"
+                            android:layout_marginBottom="@dimen/dp5"
+                            android:gravity="center"
+                            android:text=" Get Started"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="@dimen/sp18" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dp20"
+                android:layout_marginRight="@dimen/dp20"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--
+                                        <com.mrbubble.mrbubble.Font.TextView_Bold
+                                            android:id="@+id/tvWelcome"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:lineSpacingExtra="@dimen/dp3"
+                                            android:text="&quot;Welcome back User&quot;"
+                                            android:textColor="@color/colorPrimaryDark"
+                                            android:textSize="@dimen/sp25" />
+                    -->
+
+
+                    <com.arth.calorytracker.Font.TextView_Medium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Sign in to proceed"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/sp16"
+                        android:visibility="gone" />
+
+                    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        card_view:cardBackgroundColor="@color/white"
+                        card_view:cardCornerRadius="@dimen/dp15"
+                        card_view:cardElevation="@dimen/dp10"
+                        card_view:cardUseCompatPadding="true">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:elevation="20dp"
+                            android:orientation="vertical">
+
+
+
+                            <com.arth.calorytracker.Font.Button_Regular
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Sign in to App"
+                                android:textAllCaps="false"
+                                android:background="@color/colorPrimary"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/sp16" />
+
+                            <!--  <View
+                                  android:layout_width="match_parent"
+                                  android:layout_height="@dimen/dp1"
+                                  android:layout_marginTop="@dimen/dp5"
+                                  android:background="@color/light_gray" />-->
+
+                            <!-- <ScrollView
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:layout_marginTop="@dimen/sp25"
+                                 android:layout_weight="1">-->
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:layout_marginTop="5dp"
+
+                                    android:orientation="vertical">
+
+                                    <com.arth.calorytracker.Font.TextView_Regular
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/dp20"
+                                        android:gravity="left"
+                                        android:text="Email Address"
+                                        android:layout_marginTop="5dp"
+                                        android:textColor="@color/darker_gray"
+                                        android:textSize="@dimen/sp14" />
+
+                                    <com.arth.calorytracker.Font.EditText_Regular
+                                        android:id="@+id/etEmail"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/dp30"
+                                        android:layout_marginRight="@dimen/dp30"
+                                        android:gravity="left"
+                                        android:singleLine="true"
+                                        android:backgroundTint="@color/colorPrimary"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp14" />
+
+                                    <com.arth.calorytracker.Font.TextView_Regular
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/dp20"
+                                        android:layout_marginTop="@dimen/dp15"
+                                        android:gravity="left"
+                                        android:text="Password"
+                                        android:textColor="@color/darker_gray"
+                                        android:textSize="@dimen/sp14" />
+
+                                    <com.arth.calorytracker.Font.EditText_Regular
+                                        android:id="@+id/etPassword"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/dp30"
+                                        android:layout_marginRight="@dimen/dp30"
+                                        android:drawablePadding="@dimen/dp10"
+                                        android:gravity="left"
+                                        android:backgroundTint="@color/colorPrimary"
+                                        android:inputType="textPassword"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp18" />
+
+                                    <com.arth.calorytracker.Font.TextView_Regular
+                                        android:id="@+id/tvForpass"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="@dimen/dp20"
+                                        android:gravity="right"
+                                        android:padding="@dimen/dp5"
+                                        android:text=" Forgot Password?"
+                                        android:textColor="@color/darker_gray"
+                                        android:textSize="@dimen/sp12" />
+
+                                    <com.arth.calorytracker.Font.Button_Regular
+                                        android:id="@+id/btnLogin"
+                                        android:layout_marginTop="@dimen/dp10"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/dp30"
+                                        android:layout_marginRight="@dimen/dp30"
+                                        android:layout_marginBottom="@dimen/dp10"
+                                        android:background="@color/colorPrimary"
+                                        android:padding="@dimen/dp10"
+                                        android:text="Sign In"
+                                        android:textColor="@color/white"/>
+
+                                    <com.arth.calorytracker.Font.TextView_Medium
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/dp5"
+                                        android:layout_marginBottom="@dimen/dp5"
+                                        android:gravity="center"
+                                        android:text="or"
+                                        android:visibility="gone"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/dp18" />
+
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!--
+                                                        </ScrollView>
+                            -->
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

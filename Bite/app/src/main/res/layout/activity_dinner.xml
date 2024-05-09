@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darker_gray"
+    tools:context=".Dinner">
+
+
+    <com.arth.calorytracker.Font.EditText_Bold
+        android:id="@+id/etsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:drawableRight="@drawable/ic_search_black_24dp"
+        android:gravity="center"
+        android:hint="Enter Food Name"
+        android:padding="5dp"
+        android:textColorHint="@color/font_light_gray"
+        android:textSize="20dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvselfood"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etsearch" />
+
+    <View
+        android:id="@+id/vv"
+        android:layout_below="@id/rvselfood"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="1dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvfood"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/vv" />
+
+</RelativeLayout>

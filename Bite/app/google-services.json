@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "924414884253",
+    "firebase_url": "https://abwb-d2c6d.firebaseio.com",
+    "project_id": "abwb-d2c6d",
+    "storage_bucket": "abwb-d2c6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924414884253:android:28b7f136cf5013e4815774",
+        "android_client_info": {
+          "package_name": "com.arth.calorytracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924414884253-6hgjr6i3uofq1bont65lb6blg9mrf4pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJZiA7hnAsgGZXGoAUCT8mn6ZfE6jntP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924414884253-6hgjr6i3uofq1bont65lb6blg9mrf4pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
